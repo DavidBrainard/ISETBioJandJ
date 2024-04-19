@@ -1,0 +1,6 @@
+.DS_Store
+*.mat
+/figures/.pdf
+/figures
+/results
+/data
