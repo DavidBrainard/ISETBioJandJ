@@ -1,7 +1,6 @@
 # ISETBioJandJ
 
-This respository contains data and code used in the paper "Theoretical Impact of Chromatic Aberration Correction on Visual Acuity"
-by Nankivil, Cottaris, & Brainard (2024, under review).
+This respository contains data and code used in the paper Nankivil, Cottaris, & Brainard (2024), "Theoretical Impact of Chromatic Aberration Correction on Visual Acuity". Biomedical Optics Express, 15, 5, 3265-3284, https://doi.org/10.1364/BOE.516049.
 
 ## Data
 
