@@ -2,8 +2,8 @@ function theOI = generateCustomOptics(psfDataFile, customPupilDiameterMM, custom
 
     projectBaseDir = ISETBioJandJRootPath();
 
-    fprintf('Loading custom PSF data from %s\n', fullfile(projectBaseDir,'data',psfDataFile));
-    load(fullfile(projectBaseDir,'data',psfDataFile), 'opticsParams', 'thePSFensemble');
+    fprintf('Loading custom PSF data from %s\n', fullfile(getpref('ISETBioJandJ','dataDir'),psfDataFile));
+    load(fullfile(getpref('ISETBioJandJ','dataDir'),psfDataFile), 'opticsParams', 'thePSFensemble');
     
     % Reshape the PSFs from even-shaped to odd-shaped
     if (rem(numel(opticsParams.spatialSupportArcMin),2) == 0)

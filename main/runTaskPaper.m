@@ -3,8 +3,6 @@
 % As configured, it reproduces for Subject 9 the main results in the paper,
 % although as configured it only runs a subset of 25 of the 49 eye models.
 % You can add the others.
-%
-% 
 
 function runTask()
     % Clear out
@@ -25,6 +23,11 @@ function runTask()
     if (~exist(fullfile(rootPath,'results'),'dir'))
         mkdir(fullfile(rootPath,'results'));
     end
+
+    % Point at where the PSF and other data live and store it as a
+    % preference so that subroutines can find it easily.
+    projectDataDir = fullfile(ISETBioJandJRootPath,'sampledata');
+    setpref('ISETBioJandJ,'dataDir',projectDataDir);
 
     % Parameters. These control many aspects of what gets done, particular the subject. 
     %
