@@ -34,5 +34,5 @@ The code depends on a set of other publicly available repositories.
     - ISETBioCSFGenerator, branch ChromAbPaper, https://github.com/isetbio/ISETBioCSFGenerator.git
     - ISTETBo, branch ChromAbPaper, https://github.com/isetbio/isetbio.git
     - mQUESTPlus, https://github.com/brainardlab/mQUESTPlus.git
-    - Palamedes Toolbox, https://palamedestoolbox.org, version 1.8.2. [This may work with more recent versions, but we run against 1.8.2. You may need to write to the Palamedes team to get that version, and because of the way Palamedes is made available, ToolboxToolbox cannot get it for you so you will need to download it.]
+    - Palamedes Toolbox, https://palamedestoolbox.org, version 1.8.2. [This may work with more recent versions, but we run against 1.8.2. You may need to write to the Palamedes team to get that version, and because of the way Palamedes is made available, ToolboxToolbox cannot get it for you so you will need to download it. You may also need to request the specific version from the authors of Palemedes.]
 
