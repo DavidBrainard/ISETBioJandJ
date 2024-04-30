@@ -25,7 +25,13 @@ function runTask()
     end
 
     % Point at where the PSF and other data live and store it as a
-    % preference so that subroutines can find it easily.
+    % preference so that subroutines can find it easily.  We have provided
+    % enough sample data in the folder 'sampledata' to run this script.
+    % The full dataset for the paper is available for download as described
+    % in the README file for the repository.  Download that and then point
+    % the projectDataDir variable defined here at it to use the full data
+    % set.  That dataset includes the sample data as well, so you don't
+    % need to go back and forth.
     projectDataDir = fullfile(ISETBioJandJRootPath,'sampledata');
     setpref('ISETBioJandJ,'dataDir',projectDataDir);
 
@@ -44,7 +50,13 @@ function runTask()
     % file.  What it does is allow you to set a pupil diameter different
     % from the one for which the PSF was computed.  What this does is allow
     % independent control of retinal illuminance and PSF, if you want to
-    % separate the two effects.
+    % separate the two effects.  The full data set does contain PSFs
+    % computed for different pupil sizes for each TCA/LCA combination which
+    % may be used to explore the effect of pupil size on optical quality.
+    % Note again that using a PSF computed for various pupil sizes will not
+    % affect the retinal illuminance as that is controlled by the pupil
+    % size set explicitly here.  The PSF file naming convention for the
+    % various pupil sizes is described in the README.
     % 
     % The code in this script is reasonably clever about creating figure
     % and results subdirectories to hold its ouput, that keep the separate
