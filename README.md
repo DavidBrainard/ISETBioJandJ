@@ -23,7 +23,7 @@ The code allows simulation using ISETBio of ideal observer performance in a 4-AF
   - The paper provides various figures that illustrate aspects of methods or intermediate steps in the calculations. Because producing production quality figures is a little fussy, we have not provided code to (or at least not documented how to) produce these ancillary figures.  Some figures that can be produced by the main script are not saved.
   - The directory "test" contains a test script.
   - The directory "toolbox" contains support routines.
-  - The directory "sampledata" contains enough data to execute runTaskPaper. To run other conditions, you will need to download the full data set as described under data above, and then modify the line in runTaskPaper that sets the Matlab preference ('ISETBioJandJ','dataDir') to point at the data you downloaded.
+  - The directory "sampledata" contains enough data to execute runTaskPaper.m. To run other conditions, you will need to download the full data set as described under data above, and then modify the line in runTaskPaper that sets the Matlab preference ('ISETBioJandJ','dataDir') to point at the data you downloaded. We put the data directory in a folder called data at the same level of the repository as the sampledata folder.  There is a .gitignore entry on the data folder so that git will not be tempted to try to upload it.
 	
 ## Dependencies
 
