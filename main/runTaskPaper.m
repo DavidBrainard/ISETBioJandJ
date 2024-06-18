@@ -33,7 +33,7 @@ function runTask()
     % set.  That dataset includes the sample data as well, so you don't
     % need to go back and forth.
     projectDataDir = fullfile(ISETBioJandJRootPath,'sampledata');
-    setpref('ISETBioJandJ,'dataDir',projectDataDir);
+    setpref('ISETBioJandJ','dataDir',projectDataDir);
 
     % Parameters. These control many aspects of what gets done, particular the subject. 
     %
